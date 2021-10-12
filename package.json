@@ -1,0 +1,26 @@
+{
+  "name": "tdd-exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosGaspari/tdd-exercicio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosGaspari/tdd-exercicio/issues"
+  },
+  "homepage": "https://github.com/MarcosGaspari/tdd-exercicio#readme",
+  "dependencies": {
+    "jest": "^27.2.5"
+  }
+}
