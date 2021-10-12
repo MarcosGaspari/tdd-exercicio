@@ -14,4 +14,8 @@ describe('Calcula Salario', () =>{
         const res = Calculadora("Carlos Marcos", "carlosmarcos@hotmail.com",1.900,"TESTADOR");
         expect(res).toBe(1.615);
     });
+    test('Teste GERENTE', () => {
+        const res = Calculadora("Marcos Carlos", "marcoscarlos@hotmail.com",5.000,"GERENTE");
+        expect(res).toBe(3.500);
+    });
 });
