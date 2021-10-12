@@ -10,4 +10,8 @@ describe('Calcula Salario', () =>{
         const res = Calculadora("Carlos Henrique", "carlos@hotmail.com",2.200,"DBA");
         expect(res).toBe(1.6500000000000001);
     });
+    test('Teste TESTADOR', () => {
+        const res = Calculadora("Carlos Marcos", "carlosmarcos@hotmail.com",1.900,"DBA");
+        expect(res).toBe(1.700);
+    });
 });
