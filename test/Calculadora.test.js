@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const Calculadora = require('../lib/calculadora');
+const Calculadora = require('../lib/Calculadora');
 
 describe('Calcula Salario', () =>{
     test('Teste desenvolvedor', () => {
@@ -8,6 +8,6 @@ describe('Calcula Salario', () =>{
     });
     test('Teste DBA', () => {
         const res = Calculadora("Carlos Henrique", "carlos@hotmail.com",2.200,"DBA");
-        expect(res).toBe(1.650);
+        expect(res).toBe(1.6500000000000001);
     });
 });
