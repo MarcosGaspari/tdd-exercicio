@@ -12,6 +12,6 @@ describe('Calcula Salario', () =>{
     });
     test('Teste TESTADOR', () => {
         const res = Calculadora("Carlos Marcos", "carlosmarcos@hotmail.com",1.900,"DBA");
-        expect(res).toBe(1.700);
+        expect(res).toBe(1.615);
     });
 });
